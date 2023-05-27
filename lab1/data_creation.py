@@ -35,7 +35,7 @@ def init_data(name, size, with_noize=False):
     if with_noize:
         add_noise(data["temp"], size=size)
         add_noise(data["air_humidity"], size=size)
-        add_noise(data["pressurt"], size=size)
+        add_noise(data["pressure"], size=size)
 
     add_mark(data)
 
